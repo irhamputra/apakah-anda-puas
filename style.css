@@ -1,0 +1,33 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: auto auto auto;
+    color: white;
+    grid-column-gap: 30%;
+    grid-row-gap: 30%;
+}
+
+.box {
+    text-align: center;
+    display: block;
+    padding: 20px;
+    background-color: red;
+    margin: 10px 0
+}
+
+#box-yes {
+    cursor: pointer
+}
+
+#box-2 {
+    opacity: 0
+}
+
+#box-3 {
+    opacity: 0
+}
